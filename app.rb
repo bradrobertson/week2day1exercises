@@ -5,11 +5,12 @@ get '/' do
   "
   <style>
     p{ color: blue;}
+    .done { text-decoration: line-through;}
   </style>
   <h1 id='someid'>SOme Heading</h1>
   <p>Hello World!</p>
   <ol>
-    <li>Walk the dog</li>
+    <li class='done'>Walk the dog</li>
     <li>Walk the dog again</li>
     <li>Walk the dog one more time</li>
   </ol>
