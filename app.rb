@@ -2,5 +2,8 @@ require 'sinatra'
 require 'sinatra/reloader'
 
 get '/' do
-  "<p>Hello World!</p>"
+  "
+  <h1 id='someid'>SOme Heading</h1>
+  <p>Hello World!</p>
+  "
 end
